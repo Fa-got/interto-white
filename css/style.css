@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import url("fonts/fonts.css");
+
+html, body {
+	font-family: 'proxima_nova_rgregular';
+	padding: 0;
+	margin: 0;
+	height: 768px;
+	width: 1366px;
+	/*color: #1f1c17;*/
+	/*overflow: hidden;*/
+	text-align: center;
+	background-color: #f3f3f3;
+}
+.none {
+	display: none;
+	/*opacity: 0;*/
+}
+article{
+	float: left;
+	width: 1268px;
+	height: 768px;
+}
+nav{
+	width: 98px;
+	height: 100%;
+	outline:1px solid #ccc;
+	float: right;
+	background-color: #00a5b3;
+}
+nav ul{
+	margin: 9px 0 0 0;
+	padding: 0;
+
+}
+nav ul li{
+	width: 98px;
+	height: 150px;
+	margin-bottom: 1px;
+	/*outline:1px solid #000;*/
+	list-style-type: none;
+}
